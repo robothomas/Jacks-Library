@@ -7,13 +7,20 @@
 
 package lib.Vision;
 
-import edu.wpi.first.wpilibj.command.Subsystem;
+import edu.wpi.first.wpilibj.SpeedController;
 
 /**
  * Add your docs here.
  */
 public class AlignToTarget {
-  // Put methods for controlling this subsystem
-  // here. Call these from Commands.
+
+  private SpeedController leftMaster;
+  private SpeedController rightMaster;
+
+  public void setOutput() {}
+
+  public void adjustToPosition() {
+
+  }
 
 }
