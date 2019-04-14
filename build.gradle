@@ -53,6 +53,7 @@ dependencies {
     compile wpi.deps.vendor.java()
     nativeZip wpi.deps.vendor.jni(wpi.platforms.roborio)
     nativeDesktopZip wpi.deps.vendor.jni(wpi.platforms.desktop)
+    compile 'org.ghrobotics:FalconLibrary:2019.3.18'
     testCompile 'junit:junit:4.12'
 }
 
